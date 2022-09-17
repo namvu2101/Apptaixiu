@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".baucuaActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bau"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/bau"></ImageView>
+
+            <ImageView
+                android:id="@+id/cua"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/cua"></ImageView>
+
+            <ImageView
+                android:id="@+id/tom"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/tom"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/huou"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/huou"></ImageView>
+
+            <ImageView
+                android:id="@+id/ga"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/ga"></ImageView>
+
+            <ImageView
+                android:id="@+id/ca"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ca"></ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="80dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/dice1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:src="@drawable/hinhdongbaucua"></ImageView>
+
+            <ImageView
+                android:id="@+id/dice2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/white"
+                android:src="@drawable/hinhdongbaucua"></ImageView>
+
+            <ImageView
+                android:id="@+id/dice3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/white"
+                android:src="@drawable/hinhdongbaucua"></ImageView>
+
+            <Button
+                android:id="@+id/btnquay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quay"></Button>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "441545156989",
+    "project_id": "apptaixiu-4b57c",
+    "storage_bucket": "apptaixiu-4b57c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441545156989:android:9ff6eb1aacad4443370414",
+        "android_client_info": {
+          "package_name": "com.example.apptaixiu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441545156989-rpi27aqfsdk6v7co6fq1m933tdmj29d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNhBsAkw9kDijWcxNYFD9Ld7eslFgwOpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441545156989-rpi27aqfsdk6v7co6fq1m933tdmj29d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

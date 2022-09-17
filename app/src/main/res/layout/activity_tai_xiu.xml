@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    tools:context=".TaiXiuActivity">
+
+    <LinearLayout
+        android:layout_width="518dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/kq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kết quả: "
+            android:textSize="50dp"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/dice1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:src="@drawable/hinhdong"></ImageView>
+
+            <ImageView
+                android:id="@+id/dice2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/white"
+                android:src="@drawable/hinhdong"></ImageView>
+
+            <ImageView
+                android:id="@+id/dice3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/white"
+                android:src="@drawable/hinhdong"></ImageView>
+        </LinearLayout>
+
+        <Button
+
+            android:id="@+id/btnquay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Quay"></Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtlichsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lich su"></TextView>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lichsuquay"></ListView>
+
+</LinearLayout>
